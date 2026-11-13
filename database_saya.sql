@@ -91,7 +91,7 @@ CREATE TABLE report_evidence (
         'After'
     ) NOT NULL,
 
-    file_path VARCHAR(255) NOT NULL,
+    file_path VARCHAR(205) NOT NULL,
     keterangan VARCHAR(255),
 
     uploaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
